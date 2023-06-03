@@ -32,7 +32,7 @@ resumen.addEventListener("click", () => {
 });
 
 borrar.addEventListener("click", () => {
-  document.getElementById("cantidad").value = 1;
+  document.getElementById("cantidad").value = "1";
   document.getElementById("precioPagar").innerText = 0;
 });
 
